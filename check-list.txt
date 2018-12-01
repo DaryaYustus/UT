@@ -1,0 +1,36 @@
+Проверки для треугольника:
+1. Каждая из сторон треугольника должна быть >0.
+   tstCheckTriangleSideALessOrEqualsZeroFalse - тест пройден
+   tstCheckTriangleSideBLessOrEqualsZeroFalse - тест пройден
+   tstCheckTriangleSideCLessOrEqualsZeroFalse - тест не пройден
+  
+2. Сумма любых 2-х сторон должна быть больше третей .
+   tstCheckTriangleSumABLessOrEqualsCFalse - тест пройден
+   tstCheckTriangleSumCALessOrEqualsBFalse - тест пройден
+   tstCheckTriangleSumCBLessOrEqualsAFalse - тест пройден
+   
+3. Треугольник существует,если выполняется условие 1 и 2. 
+   tstCheckTriangleTrue - тест пройден
+   
+4. Программа считает площадь треугольника,если выполняется условие 1 и 2. 
+   tstGetSquareTriangle - тест пройден
+   
+5. Если 2-е стороны треугольника равны между собой и выполняется условие 1 и 2, то такой треугольник является равнобедренным.
+   tstDetectTriangleIsosceles - тест пройден
+
+6. Если 3-и стороны треугольника равны между собой, то такой треугольник является равносторонним.
+   tstDetectTriangleEquilateral - тест не пройден
+  
+7. Треугольник является прямоугольным при условии, что сумма квадратов двух его сторон равна квадрату третей стороны.  
+   tstDetectTriangleRectangular - тест пройден
+
+8. Возможность посчитать площадь для больших величин сторон.
+   tstGetSquareCheckMaxDoubleValue - тест не пройден
+  
+9. Программа позволяет посчитать площадь треугольника при соблюдений условий 1 и 2.
+   tstDetectTriangleOrdynary - тест пройден
+   
+10.Программа не позволяет посчитать площадь треугольника ,если одна из сторон отрицательна.
+   tstGetSquareWhenSideIsNegative - тест не пройден
+   
+
